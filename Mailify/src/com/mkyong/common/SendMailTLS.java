@@ -37,8 +37,8 @@ public class SendMailTLS {
 			message.setRecipients(Message.RecipientType.TO,
 				InternetAddress.parse("saumyadeep.tarafdar@accoliteindia.com"));
 			message.setSubject("Testing Subject");
-			message.setText("Dear Mail Crawler,"
-				+ "\n\n No spam to my email, please!");
+			message.setText("kuch bhi bhej de,"
+				+ "\n\n!");
 
 			Transport.send(message);
 
